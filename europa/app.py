@@ -40,7 +40,10 @@ def translate(body):
 
 
 def translate_and_transmit(socket_channel, text):
-    emit(socket_channel, text)
+    response = {
+        "translated_text": text
+    }
+    emit(socket_channel, response)
 
 
 
