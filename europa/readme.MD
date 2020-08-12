@@ -31,6 +31,7 @@ $ flask run
 ### Socket.io
 
 Server Listen on: translate
+
 Receive
 ```sh
 {
@@ -41,10 +42,14 @@ Receive
 }
 ```
 Client Listen on: {partner_id}
-TODO: change it to JSON format
-Receive
-"hello, world"
 
+
+Receive
+```sh
+{
+    "translated_text": "hello"
+}
+```
 License
 ----
 
