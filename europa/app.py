@@ -4,6 +4,7 @@ from rest.v1.transcripe_and_translate import app as tat_api_v1
 from flask_socketio import SocketIO, emit
 import json
 from helpers import converter as converter_helper, user as user_helper
+from flask_cors import CORS
 
 
 UPLOAD_FOLDER = '/temp'
@@ -13,6 +14,7 @@ socketio = SocketIO(app, cors_allowed_origins="*")
 
 app.register_blueprint(user_api_v1, url_prefix="/v1")
 app.register_blueprint(tat_api_v1, url_prefix="/v1")
+CORS(app)
 
 @socketio.on('connect')
 def handle_connect():
