@@ -9,10 +9,10 @@ app = Blueprint('user_api', __name__)
 #TODO: room.json is the temporary solution for maintaining the users and rooms
 @app.route("/users", methods=["POST"])                   
 def user():
-    uid = request.form.get("uid", None)
-    roomid = request.form.get("roomid", None)
-    language = request.form.get("language", None)
-
+    data = request.get_json()
+    uid = data.get('uid')
+    roomid = data.get("roomid")
+    language = data.get("language")
     if uid is None or roomid is None or language is None:
         return {"status": 400, "message": "uid or roomid or language is not defined"}
 
