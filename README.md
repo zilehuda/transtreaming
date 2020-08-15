@@ -9,7 +9,7 @@
   <h3 align="center">Transtreaming</h3>
 
   <p align="center">
-    <a href="https://transtreaming-jupyter.herokuapp.com">View Demo</a>
+    <a href="https://transtreaming-jupiter.herokuapp.com">View Demo</a>
   </p>
 </p>
 
@@ -42,7 +42,7 @@ Application is divided into three major components.
   
 ### Jupiter
 Jupiter is the front end part of this application, it is created on reactjs. Which communicate directly with **Agora** for a realtime video calling feature. It also transcribe the data and send it back to Europa through socket connection.
-- [Github Repository](https://github.com/zilehuda/transtreaming-jupyter)
+- [Github Repository](https://github.com/zilehuda/transtreaming-jupiter)
 
 ### Europa
 Europa is the back end of this application, it is created on Flask. It translate the text send emit the data to the jupiter.
@@ -56,7 +56,7 @@ Project naming convention is based on the planet **Jupiter** echo system. We nam
 ## Getting Started
 
 ### Jupiter
-To setup the ***Jupiter*** (frontend of transtreaming), please refer to Transtreaming Jupiter  [GitHub Repository](https://github.com/zilehuda/transtreaming-jupyter)
+To setup the ***Jupiter*** (frontend of transtreaming), please refer to Transtreaming Jupiter  [GitHub Repository](https://github.com/zilehuda/transtreaming-jupiter)
 
 ### Europa
 To setup the ***Europa*** (backend of transtreaming), please refer to Transtreaming Europa   [Github Repository](https://github.com/zilehuda/transtreaming-europa)
@@ -76,7 +76,7 @@ Zilehuda - [LinkedIn/zilehuda](https://www.linkedin.com/in/zilehuda/) - zilehuda
 
 Taimor -
 
-Project Link: [https://transtreaming-jupyter.herokuapp.com](https://transtreaming-jupyter.herokuapp.com)
+Project Link: [https://transtreaming-jupiter.herokuapp.com](https://transtreaming-jupyter.herokuapp.com)
 
 **Free Software, Hell Yeah!**
 
