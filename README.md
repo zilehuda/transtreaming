@@ -23,6 +23,7 @@
  * [Project Naming Convention](#project-naming-convention)
  * [Getting Started](#getting-started)
  * [Contact](#contact)
+ * [License](#license)
  
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -56,19 +57,14 @@ Project naming convention is based on the planet **Jupiter** echo system. We nam
 ## Getting Started
 
 ### Jupiter
-To setup the ***Jupiter*** (frontend of transtreaming), please refer to Transtreaming Jupiter  [GitHub Repository](https://github.com/zilehuda/transtreaming-jupiter)
+To setup the ***Jupiter*** (frontend of transtreaming), please refer to Transtreaming Jupiter.
+- [GitHub Repository](https://github.com/zilehuda/transtreaming-jupiter)
 
 ### Europa
-To setup the ***Europa*** (backend of transtreaming), please refer to Transtreaming Europa   [Github Repository](https://github.com/zilehuda/transtreaming-europa)
+To setup the ***Europa*** (backend of transtreaming), please refer toTranstreaming Europa.
+- [Github Repository](https://github.com/zilehuda/transtreaming-europa)
 
 
-License
-----
-
-MIT
-
-
-  
 <!-- CONTACT -->
 ## Contact
 
@@ -78,7 +74,11 @@ Taimor -
 
 Project Link: [https://transtreaming-jupiter.herokuapp.com](https://transtreaming-jupyter.herokuapp.com)
 
-**Free Software, Hell Yeah!**
+
+License
+----
+This software is licensed under the MIT License (MIT). [View the license](LICENSE.md).
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
