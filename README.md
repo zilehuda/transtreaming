@@ -9,11 +9,6 @@
   <h3 align="center">Transtreaming</h3>
 
   <p align="center">
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Jupiter docs »</strong></a>
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Europa docs »</strong></a>
-    <br />
-    <br />
     <a href="https://transtreaming-jupyter.herokuapp.com">View Demo</a>
   </p>
 </p>
@@ -26,6 +21,7 @@
 	 * [Jupiter](#jupiter)
 	 * [Europa](#europa)
  * [Project Naming Convention](#project-naming-convention)
+ * [Getting Started](#getting-started)
  * [Contact](#contact)
  
 <!-- ABOUT THE PROJECT -->
@@ -45,7 +41,7 @@ Application is divided into three major components.
 [![Tramstreaming Architecture Diagram][architecture-diagram]](https://transtreaming-jupyter.herokuapp.com)
   
 ### Jupiter
-Jupiter is the front end part of this application, it is created on reactjs. Which communicate directly with agora for a realtime calling video calling feature. It also transcribe the data and send it back to Europa through socket connection.
+Jupiter is the front end part of this application, it is created on reactjs. Which communicate directly with **Agora** for a realtime video calling feature. It also transcribe the data and send it back to Europa through socket connection.
 - [Github Repository](https://github.com/zilehuda/transtreaming-jupyter)
 
 ### Europa
@@ -55,6 +51,16 @@ Europa is the back end of this application, it is created on Flask. It translate
 <!-- APPLICATION ARCHITECTURE -->
 ## Project Naming Convention
 Project naming convention is based on the planet **Jupiter** echo system. We named our main application as **Jupiter** the front part of the transtreaming. And **Europa** is the moon of **Jupiter** which is the backend part of the transtreaming.
+
+<!-- Getting Started -->
+## Getting Started
+
+### Jupiter
+To setup the ***Jupiter*** (frontend of transtreaming), please refer to Transtreaming Jupiter  [GitHub Repository](https://github.com/zilehuda/transtreaming-jupyter)
+
+### Europa
+To setup the ***Europa*** (backend of transtreaming), please refer to Transtreaming Europa   [Github Repository](https://github.com/zilehuda/transtreaming-europa)
+
 
 License
 ----
