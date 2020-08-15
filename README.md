@@ -3,7 +3,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="documentation/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Transtreaming</h3>
@@ -36,6 +36,8 @@ Application is divided into three major components.
   - Jupiter
   - Europa
   - Agora
+
+[![Tramstreaming Architecture Diagram][architecture-diagram]](https://transtreaming-jupyter.herokuapp.com)
   
 ### Jupiter
 Jupiter is the front end part of this application, it is created on reactjs. Which communicate directly with agora for a realtime calling video calling feature. It also transcribe the data and send it back to Europa through socket connection.
@@ -60,3 +62,7 @@ MIT
 
 
 **Free Software, Hell Yeah!**
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[architecture-diagram]: images/architecture-diagram.png
