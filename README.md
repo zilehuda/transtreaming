@@ -3,7 +3,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="documentation/logo.png" alt="Logo" width="80" height="80">
+    <img src="documentation/logo.png" alt="Logo">
   </a>
 
   <h3 align="center">Transtreaming</h3>
@@ -65,4 +65,4 @@ MIT
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[architecture-diagram]: images/architecture-diagram.png
+[architecture-diagram]: documentation/architecture-diagram.png
