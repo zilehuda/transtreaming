@@ -3,7 +3,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="documentation/logo.png" alt="Logo" width="250" height="250">
+    <img src="documentation/logo.png" alt="Logo" width="200" height="200">
   </a>
 
   <h3 align="center">Transtreaming</h3>
@@ -23,12 +23,17 @@
 
 * [About the Project](#about-the-project)
  * [Application Architecture](#application-architecture)
+	 * [Jupiter](#jupiter)
+	 * [Europa](#europa)
+ * [Project Naming Convention](#project-naming-convention)
+ * [Contact](#contact)
  
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
-Treamstreaming is a video calling application which helps two different people from different regions to communicate easily without any difficulty. It transcribe and translate the partner voice in a realtime. And agora give the power on realtime communication.
+
+Treamstreaming is a video calling application which is created for [**RTE2020 Hackaton**](https://rte.devpost.com/) by **Agora.io**. It helps two different people from different regions to communicate easily without any difficulty. It transcribe and translate the partner voice in a realtime. And agora give the power on realtime communication.
 
 <!-- APPLICATION ARCHITECTURE -->
 ## Application Architecture
@@ -51,15 +56,21 @@ Europa is the back end of this application, it is created on Flask. It translate
 ## Project Naming Convention
 Project naming convention is based on the planet **Jupiter** echo system. We named our main application as **Jupiter** the front part of the transtreaming. And **Europa** is the moon of **Jupiter** which is the backend part of the transtreaming.
 
-### Todos
- - Write MORE Tests
- - Add Night Mode
-
 License
 ----
 
 MIT
 
+
+  
+<!-- CONTACT -->
+## Contact
+
+Zilehuda - [LinkedIn/zilehuda](https://www.linkedin.com/in/zilehuda/) - zilehuda.tariq@gmail.com
+
+Taimor -
+
+Project Link: [https://transtreaming-jupyter.herokuapp.com](https://transtreaming-jupyter.herokuapp.com)
 
 **Free Software, Hell Yeah!**
 
