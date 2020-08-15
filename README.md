@@ -3,7 +3,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="documentation/logo.png" alt="Logo" width="200" height="200">
+    <img src="documentation/logo.png" alt="Logo" width="250" height="250">
   </a>
 
   <h3 align="center">Transtreaming</h3>
