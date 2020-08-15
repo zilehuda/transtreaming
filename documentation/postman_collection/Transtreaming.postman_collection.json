@@ -1,0 +1,190 @@
+{
+	"id": "7b2fb617-58a4-4867-a0ee-ad514ed120fc",
+	"name": "Transtreaming",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [],
+	"folders_order": [
+		"6e2cb50a-0226-4f9b-8cdf-90548023ea34"
+	],
+	"protocolProfileBehavior": {},
+	"folders": [
+		{
+			"id": "6e2cb50a-0226-4f9b-8cdf-90548023ea34",
+			"name": "Europa",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "7b2fb617-58a4-4867-a0ee-ad514ed120fc",
+			"folder": null,
+			"order": [
+				"84f6cc47-0eb0-45a0-9bc9-ee9d400d7854",
+				"d7fa3691-3357-4b36-abbb-70a456a05fda",
+				"bcc9096e-f0bd-409a-95ff-a2585c3ff807",
+				"1cdcacdd-e8ff-48e4-91fe-be980764d1d7"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"requests": [
+		{
+			"id": "1cdcacdd-e8ff-48e4-91fe-be980764d1d7",
+			"name": "Add user and room",
+			"url": "http://localhost:5000/v1/users",
+			"description": "",
+			"data": [
+				{
+					"key": "uid",
+					"value": "11",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "roomid",
+					"value": "2341",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "language",
+					"value": "en",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "6e2cb50a-0226-4f9b-8cdf-90548023ea34",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "84f6cc47-0eb0-45a0-9bc9-ee9d400d7854",
+			"name": "transcripe and translate the audio file",
+			"url": "http://localhost:5000/v1/transcripe_and_translate",
+			"description": "",
+			"data": [
+				{
+					"key": "stream_audio",
+					"value": "/home/zilay/projects/transtreaming/socket_io_js_server/rename_urdu.wav",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "source",
+					"value": "ur",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "destination",
+					"value": "ur",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "multipart/form-data",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "",
+					"value": null,
+					"description": null,
+					"enabled": false
+				}
+			],
+			"auth": null,
+			"events": [],
+			"folder": "6e2cb50a-0226-4f9b-8cdf-90548023ea34",
+			"headers": "Content-Type: multipart/form-data\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "bcc9096e-f0bd-409a-95ff-a2585c3ff807",
+			"name": "Translate the text",
+			"url": "http://localhost:5000/v1/translate",
+			"description": "",
+			"data": [
+				{
+					"key": "text",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "source",
+					"value": "ur",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "destination",
+					"value": "en",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "6e2cb50a-0226-4f9b-8cdf-90548023ea34",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "d7fa3691-3357-4b36-abbb-70a456a05fda",
+			"name": "Get Languages array",
+			"url": "http://localhost:5000/v1/languages",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "6e2cb50a-0226-4f9b-8cdf-90548023ea34",
+			"headers": "",
+			"pathVariables": {}
+		}
+	]
+}
