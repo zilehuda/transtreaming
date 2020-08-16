@@ -1,4 +1,5 @@
 
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -22,6 +23,7 @@
 	 * [Europa](#europa)
  * [Project Naming Convention](#project-naming-convention)
  * [Getting Started](#getting-started)
+ * [Acknowledgements](#acknowledgements)
  * [Contact](#contact)
  * [License](#license)
  
@@ -64,6 +66,20 @@ To setup the ***Jupiter*** (frontend of transtreaming), please refer to Transtre
 To setup the ***Europa*** (backend of transtreaming), please refer toTranstreaming Europa.
 - [Github Repository](https://github.com/zilehuda/transtreaming-europa)
 
+<!-- Getting Started -->
+## Acknowledgements
+
+### Jupiter
+* WebRTC powerd by [Agora](https://www.agora.io/en)
+* [Agora React Template](https://github.com/AgoraIO-Community/OpenAgoraWeb-React)
+* [React-Speech-Recognization](https://www.npmjs.com/package/react-speech-recognition)
+* Socket.io
+
+### Europa
+*  [Flask](https://flask.palletsprojects.com/en/1.1.x/)
+* [Flask-SocketIO](https://flask-socketio.readthedocs.io/en/latest/)
+* [Googletrans](https://py-googletrans.readthedocs.io/en/latest/)
+* [Gunicorn](https://gunicorn.org/)
 
 <!-- CONTACT -->
 ## Contact
@@ -75,8 +91,7 @@ Taimor -
 Project Link: [https://transtreaming-jupiter.herokuapp.com](https://transtreaming-jupyter.herokuapp.com)
 
 
-License
-----
+## License
 This software is licensed under the MIT License (MIT). [View the license](LICENSE.md).
 
 
