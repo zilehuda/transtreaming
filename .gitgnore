@@ -1,0 +1,23 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/jupliter/node_modules
+
+# testing
+/jupliter/coverage
+
+# production
+/jupliter/build
+
+# misc
+/jupliter/.DS_Store
+/jupliter/.env
+/jupliter/.env.local
+/jupliter/.env.development.local
+/jupliter/.env.test.local
+/jupliter/.env.production.local
+
+/jupliter/npm-debug.log*
+/jupliter/yarn-debug.log*
+/jupliter/yarn-error.log*
+
