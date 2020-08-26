@@ -1,0 +1,133 @@
+{
+	"info": {
+		"_postman_id": "7b2fb617-58a4-4867-a0ee-ad514ed120fc",
+		"name": "Transtreaming",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Europa",
+			"item": [
+				{
+					"name": "transcripe and translate the audio file",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "multipart/form-data",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "stream_audio",
+									"type": "file",
+									"src": "/home/zilay/projects/transtreaming/socket_io_js_server/rename_urdu.wav"
+								},
+								{
+									"key": "source",
+									"value": "ur",
+									"type": "text"
+								},
+								{
+									"key": "destination",
+									"value": "ur",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/v1/transcripe_and_translate",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"v1",
+								"transcripe_and_translate"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Languages array",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{base_url}}/v1/languages"
+					},
+					"response": []
+				},
+				{
+					"name": "Translate the text",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "text",
+									"value": "تم کیا کر رہے ہو؟",
+									"type": "text"
+								},
+								{
+									"key": "source",
+									"value": "ur",
+									"type": "text"
+								},
+								{
+									"key": "destination",
+									"value": "en",
+									"type": "text"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{base_url}}/v1/translate"
+					},
+					"response": []
+				},
+				{
+					"name": "Add user and room",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"uid\": \"1\",\n    \"roomid\":\"2\",\n    \"language\": \"en\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{base_url}}/v1/users"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
