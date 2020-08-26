@@ -21,3 +21,6 @@
 /jupliter/yarn-debug.log*
 /jupliter/yarn-error.log*
 
+
+/europa/room.py
+/europa/__pycache__/
