@@ -23,6 +23,7 @@
 	 * [Europa](#europa)
  * [Project Naming Convention](#project-naming-convention)
  * [Getting Started](#getting-started)
+ * [TODO](#TODO)
  * [Acknowledgements](#acknowledgements)
  * [Contact](#contact)
  * [License](#license)
@@ -66,7 +67,18 @@ To setup the ***Jupiter*** (frontend of transtreaming), please refer to Transtre
 To setup the ***Europa*** (backend of transtreaming), please refer toTranstreaming Europa.
 - [Github Repository](https://github.com/zilehuda/transtreaming-europa)
 
-<!-- Getting Started -->
+<!-- TODO -->
+## TODO
+
+### Jupiter
+  - Resolve the issue of reapting text due to the partner voice.
+  - Resolve the issue first time permission allow.
+  - Re-architect the code for better component communication.
+  
+### Europa
+  - Use SqLite or a database for a user management.
+
+<!-- Acknowledgements -->
 ## Acknowledgements
 
 ### Jupiter
