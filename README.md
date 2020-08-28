@@ -98,7 +98,7 @@ To setup the ***Europa*** (backend of transtreaming), please refer toTranstreami
 
 Zilehuda - [LinkedIn/zilehuda](https://www.linkedin.com/in/zilehuda/) - zilehuda.tariq@gmail.com
 
-Taimor -
+Taimour - [LinkedIn/Taimour](https://www.linkedin.com/in/muhammadtaimour/) - muhammad.taimour95@gmail.com
 
 Project Link: [https://transtreaming-jupiter.herokuapp.com](https://transtreaming-jupyter.herokuapp.com)
 
